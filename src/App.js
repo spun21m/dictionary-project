@@ -6,10 +6,10 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header text-center">
-          <a href="./Dictionary.js">Dictionary 📖</a>
+          <a href="/">Dictionary 📖</a>
         </header>
         <main>
-          <Dictionary defaultKeyword="book" />
+          <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="App-footer">
           Coded by Sital Pun , and is{" "}
