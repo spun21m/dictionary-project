@@ -7,13 +7,12 @@ export default function App() {
       <div className="container">
         <header className="App-header text-center">
           <h1>Dictionary 📖</h1>
-          <p>Look up for a word</p>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="book" />
         </main>
         <footer className="App-footer">
-          Coded by Sital Pun , and it is{" "}
+          Coded by Sital Pun , and is{" "}
           <a
             href="https://github.com/spun21m/dictionary-project"
             target="_blank"

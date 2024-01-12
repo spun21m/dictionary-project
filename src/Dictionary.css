@@ -1,3 +1,29 @@
-.Dictionary {
-  text-align: center;
+.Dictionary section {
+  background: #ffcab0;
+  background-color: rgba(255, 244, 244, 0.4);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Dictionary .lookup-word {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffcab0;
+  margin: 0 0 14px 5px;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  color: #510654;
+}
+
+.Dictionary .hint {
+  font-size: 13px;
+  color: #CBA8CC;
+  margin: 8px 0 0 5px;
 }
